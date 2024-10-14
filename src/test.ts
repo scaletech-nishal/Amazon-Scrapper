@@ -1,3 +1,6 @@
-import GetGoogleLinks from "./index";
+import GetPoductDetails from "./index";
 
-GetGoogleLinks({ searches: `crawlora\nscaletech` });
+GetPoductDetails({
+  Keywords: `shoes for men uk waterproof`,
+  Site: "United Kingdom",
+});

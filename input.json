@@ -1,12 +1,46 @@
 [
-    {
-        "type": "textarea",
-        "datatype": "string",
-        "placeholder": "Enter search keywords per line",
-        "default": "crawlora",
-        "label": "Google searchs",
-        "regex": "/^.*$/",
-        "required": true,
-        "name": "searches"
-      }
+  {
+    "type": "textarea",
+    "datatype": "string",
+    "placeholder": "Enter search keywords per line",
+    "default": "Shoes\nWatches",
+    "label": "Keywords",
+    "regex": "/^.*$/",
+    "required": true,
+    "name": "Keywords"
+  },
+  {
+    "type": "select",
+    "datatype": "string",
+    "placeholder": "Select site",
+    "default": "United Kindom ",
+    "options": [
+      "United Kingdom",
+      "India",
+      "Australia",
+      "China (中国)",
+      "Turkey (Türkiye)",
+      "Italy (Italia)",
+      "Netherlands (Nederland)",
+      "United States",
+      "Spain (España)",
+      "Spain (España)",
+      "Brazil (Brasil)",
+      "Saudi Arabia (المملكة العربية السعودية)",
+      "Belgium (Belgique)",
+      "Egypt (مصر)",
+      "France",
+      "Mexico (México)",
+      "Poland (Polska)",
+      "United Arab Emirates",
+      "Canada",
+      "Japan (日本)",
+      "Germany (Deutschland)",
+      "Sweden (Sverige)"
+    ],
+    "label": "Site",
+    "regex": "/^.*$/",
+    "required": true,
+    "name": "Site"
+  }
 ]
