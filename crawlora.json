@@ -1,15 +1,20 @@
 {
-    "env":{
-        "key":"value"
-    },
-    "entrypoint": "./.dist/index.js",
-    "function": "default",
-    "screenshot_files": ["./assets/screenshot_1.png", "./assets/screenshot_2.png", "./assets/screenshot_3.png"],
-    "logo_file": "./assets/logo.png",
-    "banner_file": "./assets/banner.png",
-    "title": "Amazon Scrapper",
-    "short_description": "Scrap amazon product list data",
-    "version":"1.0.0",
-    "documentation_file": "./documentation.md",
-    "input_file": "./input.json"
+  "env": {
+    "key": "value"
+  },
+  "entrypoint": "./.dist/index.js",
+  "function": "default",
+  "screenshot_files": [
+    "./assets/screenshot_1.png",
+    "./assets/screenshot_2.png",
+    "./assets/screenshot_3.png"
+  ],
+  "logo_file": "./assets/logo.png",
+  "banner_file": "./assets/banner.png",
+  "title": "Amazon Scrapper",
+  "short_description": "Scrap amazon product list data",
+  "version": "1.0.0",
+  "documentation_file": "./documentation.md",
+  "input_file": "./input.json",
+  "app_id": "dcd93de4-63da-4440-aea7-3803f3cc1a68"
 }
