@@ -1,6 +1,6 @@
 import GetPoductDetails from "./index";
 
 GetPoductDetails({
-  Keywords: `shoes for men uk waterproof`,
+  Keywords: `laptops`,
   Site: "United Kingdom",
 });

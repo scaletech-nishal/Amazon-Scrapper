@@ -64,8 +64,9 @@ export default async function ({
           (items: any) =>
             items.map((item: any) => {
               const productName =
-                item.querySelector("h2 a span")?.textContent || "No Title";
-              const productPage = item.querySelector("h2 a")?.href || "No Link";
+                item.querySelector("h2 span")?.textContent || "No Title";
+              const productPage =
+                item.querySelector(".a-link-normal")?.href || "No Link";
               const productImage =
                 item.querySelector(".s-image")?.src || "No Image";
               const ASIN = item.getAttribute("data-asin") || "No ASIN";
@@ -105,11 +106,9 @@ export default async function ({
             })
         );
 
-
         debug(`Fetching product titles and links`);
         await wait(2);
         debug(`Started submitting product data`);
-
         await Promise.all(
           products.map(async (product: any) => {
             await output.create({

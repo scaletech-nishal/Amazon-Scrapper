@@ -19,6 +19,6 @@
     "typescript": "^5.6.2"
   },
   "dependencies": {
-    "@crawlora/browser": "latest"
+    "@crawlora/browser": "^1.1.3"
   }
 }
